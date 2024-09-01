@@ -1,6 +1,6 @@
 <?php
 
-class dn_REST_Controller_Product extends WP_REST_Controller
+class devnodes_REST_Controller_Product extends WP_REST_Controller
 {
 	public function register_routes()
 	{
