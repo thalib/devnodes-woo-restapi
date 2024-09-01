@@ -5,7 +5,7 @@ class dn_REST_Controller_Product extends WP_REST_Controller
 	public function register_routes()
 	{
 
-		# http://cart.fastdep.in/wp-json/devnodes/v1/product/1
+		// https://example.com/wp-json/devnodes/v1/product/1 <- product id = 1
 		$namespace = 'devnodes/v1';
 		$path = 'product/(?P<product_id>\d+)';
 
